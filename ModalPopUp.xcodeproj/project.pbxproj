@@ -14,6 +14,8 @@
 		A268D1FC1EE3A43400E71AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A268D1FA1EE3A43400E71AA1 /* LaunchScreen.storyboard */; };
 		A268D2061EE3A68500E71AA1 /* Living Colours Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A268D2051EE3A68500E71AA1 /* Living Colours Personal Use.ttf */; };
 		A268D2081EE3A6EA00E71AA1 /* Moonlights.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A268D2071EE3A6EA00E71AA1 /* Moonlights.ttf */; };
+		A268D20A1EE3AF6100E71AA1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268D2091EE3AF6100E71AA1 /* DesignableView.swift */; };
+		A268D20C1EE3B2CA00E71AA1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268D20B1EE3B2CA00E71AA1 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A268D1FD1EE3A43400E71AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A268D2051EE3A68500E71AA1 /* Living Colours Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Living Colours Personal Use.ttf"; sourceTree = "<group>"; };
 		A268D2071EE3A6EA00E71AA1 /* Moonlights.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moonlights.ttf; sourceTree = "<group>"; };
+		A268D2091EE3AF6100E71AA1 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		A268D20B1EE3B2CA00E71AA1 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,13 @@
 			children = (
 				A268D1F11EE3A43400E71AA1 /* AppDelegate.swift */,
 				A268D1F31EE3A43400E71AA1 /* ViewController.swift */,
+				A268D20B1EE3B2CA00E71AA1 /* SignUpVC.swift */,
 				A268D1F51EE3A43400E71AA1 /* Main.storyboard */,
 				A268D1F81EE3A43400E71AA1 /* Assets.xcassets */,
 				A268D2031EE3A4CF00E71AA1 /* Data */,
 				A268D1FA1EE3A43400E71AA1 /* LaunchScreen.storyboard */,
 				A268D1FD1EE3A43400E71AA1 /* Info.plist */,
+				A268D2091EE3AF6100E71AA1 /* DesignableView.swift */,
 			);
 			path = ModalPopUp;
 			sourceTree = "<group>";
@@ -153,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A268D20C1EE3B2CA00E71AA1 /* SignUpVC.swift in Sources */,
 				A268D1F41EE3A43400E71AA1 /* ViewController.swift in Sources */,
 				A268D1F21EE3A43400E71AA1 /* AppDelegate.swift in Sources */,
+				A268D20A1EE3AF6100E71AA1 /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
