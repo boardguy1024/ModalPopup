@@ -12,6 +12,8 @@
 		A268D1F71EE3A43400E71AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A268D1F51EE3A43400E71AA1 /* Main.storyboard */; };
 		A268D1F91EE3A43400E71AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A268D1F81EE3A43400E71AA1 /* Assets.xcassets */; };
 		A268D1FC1EE3A43400E71AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A268D1FA1EE3A43400E71AA1 /* LaunchScreen.storyboard */; };
+		A268D2061EE3A68500E71AA1 /* Living Colours Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A268D2051EE3A68500E71AA1 /* Living Colours Personal Use.ttf */; };
+		A268D2081EE3A6EA00E71AA1 /* Moonlights.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A268D2071EE3A6EA00E71AA1 /* Moonlights.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A268D1F81EE3A43400E71AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A268D1FB1EE3A43400E71AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A268D1FD1EE3A43400E71AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A268D2051EE3A68500E71AA1 /* Living Colours Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Living Colours Personal Use.ttf"; sourceTree = "<group>"; };
+		A268D2071EE3A6EA00E71AA1 /* Moonlights.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moonlights.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,20 @@
 				A268D1F31EE3A43400E71AA1 /* ViewController.swift */,
 				A268D1F51EE3A43400E71AA1 /* Main.storyboard */,
 				A268D1F81EE3A43400E71AA1 /* Assets.xcassets */,
+				A268D2031EE3A4CF00E71AA1 /* Data */,
 				A268D1FA1EE3A43400E71AA1 /* LaunchScreen.storyboard */,
 				A268D1FD1EE3A43400E71AA1 /* Info.plist */,
 			);
 			path = ModalPopUp;
+			sourceTree = "<group>";
+		};
+		A268D2031EE3A4CF00E71AA1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A268D2071EE3A6EA00E71AA1 /* Moonlights.ttf */,
+				A268D2051EE3A68500E71AA1 /* Living Colours Personal Use.ttf */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A268D2061EE3A68500E71AA1 /* Living Colours Personal Use.ttf in Resources */,
 				A268D1FC1EE3A43400E71AA1 /* LaunchScreen.storyboard in Resources */,
+				A268D2081EE3A6EA00E71AA1 /* Moonlights.ttf in Resources */,
 				A268D1F91EE3A43400E71AA1 /* Assets.xcassets in Resources */,
 				A268D1F71EE3A43400E71AA1 /* Main.storyboard in Resources */,
 			);
